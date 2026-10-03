@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Office Administration Management System</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f6f8; }
+        header { background-color: #2c3e50; color: white; text-align: center; padding: 25px; }
+        nav { background-color: #34495e; text-align: center; padding: 15px; }
+        nav a { color: white; text-decoration: none; margin: 15px; }
+        .container { padding: 25px; }
+        .cards { display: flex; gap: 20px; flex-wrap: wrap; }
+        .card { background-color: white; padding: 20px; width: 200px; border-radius: 10px; box-shadow: 0 2px 8px #ccc; }
+        table { width: 100%; border-collapse: collapse; background-color: white; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #34495e; color: white; }
+        .section { margin-top: 30px; }
+        footer { background-color: #2c3e50; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+<header><h1>Office Administration Management System</h1><p>Managing Office Activities Efficiently</p></header>
+<nav><a href="#dashboard">Dashboard</a><a href="#employees">Employees</a><a href="#meetings">Meetings</a><a href="#tasks">Tasks</a></nav>
+<div class="container">
+<section id="dashboard"><h2>Office Dashboard</h2><div class="cards">
+<div class="card"><h3>Employees</h3><p>25 Employees</p></div>
+<div class="card"><h3>Meetings</h3><p>4 Meetings Today</p></div>
+<div class="card"><h3>Pending Tasks</h3><p>8 Tasks</p></div>
+<div class="card"><h3>Documents</h3><p>120 Documents</p></div>
+</div></section>
+<section id="employees" class="section"><h2>Employee Management</h2><table><tr><th>Employee ID</th><th>Name</th><th>Department</th><th>Status</th></tr><tr><td>EMP001</td><td>Anu</td><td>Administration</td><td>Active</td></tr><tr><td>EMP002</td><td>Rahul</td><td>Finance</td><td>Active</td></tr><tr><td>EMP003</td><td>Meera</td><td>HR</td><td>On Leave</td></tr></table></section>
+<section id="meetings" class="section"><h2>Meeting Schedule</h2><table><tr><th>Date</th><th>Time</th><th>Meeting</th></tr><tr><td>03-10-2026</td><td>10:00 AM</td><td>Staff Meeting</td></tr><tr><td>04-10-2026</td><td>2:00 PM</td><td>Project Discussion</td></tr></table></section>
+<section id="tasks" class="section"><h2>Daily Office Tasks</h2><ul><li>Check and respond to emails</li><li>Maintain office records</li><li>Organize important documents</li><li>Schedule meetings</li><li>Manage office supplies</li><li>Prepare daily reports</li></ul></section>
+</div>
+<footer><p>Office Administration Management System</p><p>© 2026 All Rights Reserved</p></footer>
+</body>
+</html>
